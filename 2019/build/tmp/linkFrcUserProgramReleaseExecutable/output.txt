@@ -1,4 +1,0 @@
-See file:///home/emil/Git/frc/2019_Baseline/build/tmp/linkFrcUserProgramReleaseExecutable/output.txt for all output for linkFrcUserProgramReleaseExecutable.
-linking frcUserProgram successful.
-
-Finished linkFrcUserProgramReleaseExecutable, see full log file:///home/emil/Git/frc/2019_Baseline/build/tmp/linkFrcUserProgramReleaseExecutable/output.txt.

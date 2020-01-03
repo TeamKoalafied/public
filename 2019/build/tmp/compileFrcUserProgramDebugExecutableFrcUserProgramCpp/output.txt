@@ -1,8 +1,0 @@
-See file:///home/emil/Git/frc/2019_Baseline/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
-compiling GripOutput.cpp successful.
-
-compiling VisionSystem.cpp successful.
-
-compiling DriveBase.cpp successful.
-
-Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///home/emil/Git/frc/2019_Baseline/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.
