@@ -1,0 +1,11 @@
+{
+  "name": "display-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "cd src && py -3 -m pynetworktables2js --team 6996"
+  },
+  "author": "",
+  "license": "ISC"
+}

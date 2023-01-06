@@ -1,0 +1,45 @@
+/*
+ * Team Koalafied #6996 Shuffleboard Theme Stylesheet
+ */
+
+/* Base this theme on the standard 'Dark' theme */
+@import "/edu/wpi/first/shuffleboard/app/dark.css"
+
+/* Redefine colours to use the Koalafied logo colours */
+/* It is a bit tricky to colour everything as you would like but this is
+ * looks pretty good. */
+.root {
+    -fx-text-base-color: #FFD000; /* Most of the text (not tab titles) */
+    
+    -swatch-200: #44A5A7; /* Control heading background */
+    -swatch-500: #FE4100; /* Tab title background colour */
+    
+    -swatch-dark-gray: #232435; /* Control choser background*/ 
+    -swatch-gray: #232435;/* Main tab background */
+    -swatch-light-gray: #295882; /* Title bar and chooser title background */
+    -fx-background: -swatch-gray; /* Main tab background */
+    -fx-color: -swatch-gray;
+   
+
+    /* Koalafied Logo Colours
+     *
+     * #FE4100 - Red Orange
+     * #FFD000 - Yellow
+     * #44A5A7 - Greeny Blue
+     * #232435 - Dark Blue
+     * #295882 - Mid Blue
+     */
+}
+
+/* Add a logo to the background of the tab. */
+.tab-pane {
+    -fx-background-image: url("koalafied_logo800.png");
+    -fx-background-size: 256, 256;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right bottom;
+}
+
+/* Reduce the alpha insensity of the grid so that it does not obscure the logo too much */
+.widget-pane {
+    -fx-grid-line-color: rgba(255, 255, 255, 0.1);
+}

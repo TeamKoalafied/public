@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+				<!-- Meta -->
+        <meta charset="utf-8">
+        <title>CameraStream | Team Koalafied</title>
+				<link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png">
+				<!-- Network Tables-->
+				<script src="/networktables/networktables.js"></script>
+				<!-- Toasts -->
+				<script src="assets/toasts.js"></script>
+				<link rel="stylesheet" href="assets/toasts.css">
+				<!-- Javascript -->
+				<script src="assets/app.js" defer></script>
+				<script src="assets/networktableupdater.js"></script>
+				<!-- Styles -->
+				<link rel="stylesheet" type="text/css" href="assets/styles.css" />
+
+    </head>
+    <body>
+			<noscript>Use a Javascript supported browser.</noscript>
+			<div id="container">
+				<div class="canvas_wrap visible_in_compmode" id="left">
+					<h2>Front</h2>
+					<canvas id="front">Use a canvas supported browser.</canvas>
+				</div>
+				<div class="canvas_wrap visible_in_compmode" id="right">
+					<h2>Back</h2>
+					<canvas id="back">Use a canvas supported browser.</canvas>
+				</div>
+				<hr>
+				<div id="networktableinfo">
+					<div class="networktableitem">
+						<h4>Robot Telemetry</h4>
+						<h5 id="telemetry" class="coloursquare"></h5>
+					</div>
+					<div class="networktableitem">
+						<h4>Heading</h4>
+						<h5 id="heading"></h5>
+					</div>
+					<div class="networktableitem">
+						<h4>Shooter Speed</h4>
+						<h5 id="shooterrpm"></h5>
+					</div>
+					<div class="networktableitem">
+						<h4>Winch Position</h4>
+						<h5 id="winchposition"></h5>
+					</div>
+					<div class="networktableitem">
+						<h4>Camera Aim X</h4>
+						<h5 id="aimx"></h5>
+					</div>
+					<div class="networktableitem">
+						<h4>Winch Limit</h4>
+						<h5 id="winchlimit" class="coloursquare"></h5>
+					</div>
+				
+				</div>
+				<hr>
+				<div style="display: flex; justify-content: center; align-items: center;">
+					<img src="./assets/img/new_koalafied_logo.png" alt="Koalafied Logo" style="max-width: 10rem; height: 100%;">
+					<span style="font-size: xx-large;">+</span>
+					<img src="./assets/img/favicon.png" alt="Bob" style="max-width: 7rem;">
+				</div>
+			</div>
+    </body>
+		<div id="toast"></div> 
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head>
+</head>
+<style>
+.button {
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<body onload="updateIP()">
+	<script>
+		function changeImage(tag, url, img) {
+			source = "http://" + url + img;
+			document.getElementById(tag).src=source;
+		}
+
+		document.getElementById("IP").value = "10.69.96.6";
+		function updateIP() {
+			address=document.getElementById("IP").value;
+		
+		img1=":1181/stream.mjpg";
+		img2=":1182/stream.mjpg";
+		img3=":1183/stream.mjpg";
+		img4=":1184/stream.mjpg";
+		img5=":1185/stream.mjpg";
+	}
+	
+	</script>
+	<table width="100%">
+		<tr>
+			<td width="50%"><img id="limg" src="http://10.69.96.6:1182/stream.mjpg" width="96%" style="float:left"></td>
+			<td width="50%"><img id="rimg" src="http://10.69.96.6:1183/stream.mjpg" width="96%" style="float:right"></td>
+		</tr>
+		<tr>
+			<td>
+				<button class="button" type="button" onclick="changeImage('limg', address, img2)">Back</button>
+				<button class="button" type="button" onclick="changeImage('limg', address, img3)">Front</button>
+				<button class="button" type="button" onclick="changeImage('limg', address, img5)">Front Zoom</button>
+				<button class="button" type="button" onclick="changeImage('limg', address, img4)">Debug</button>
+			</td>
+
+			<td>
+				<button style="float:right" class="button" type="button" onclick="changeImage('rimg', address, img4)">Debug</button>
+				<button style="float:right" class="button" type="button" onclick="changeImage('rimg', address, img5)">Front Zoom</button>
+				<button style="float:right" class="button" type="button" onclick="changeImage('rimg', address, img3)">Front</button>
+				<button style="float:right" class="button" type="button" onclick="changeImage('rimg', address, img2)">Back</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input style="float:right" type=input id="IP" value="10.69.96.6" ></input>
+			</td>
+			
+			<td>
+				<button style="float:left" class="button" type="button" onclick="updateIP()">Change IP</button>
+			</td>
+		</tr>
+		<tr>
+			<td><img style="float:right" src="https://yt3.ggpht.com/a/AGF-l79vLaFlsLESRwMPBYIXSK6g4Bh6VqVfMNMbhg=s900-c-k-c0xffffffff-no-rj-mo" width="10%"></td>
+			<td><img style="float:left" src="https://firstaustralia.org/wp-content/uploads/2016/01/FIRSTRobotics_iconHorz_RGB.png" width="20%"></td>
+		</tr>
+	</table>
+</body>
+</html>
+

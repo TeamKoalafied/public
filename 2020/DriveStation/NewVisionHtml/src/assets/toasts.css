@@ -1,0 +1,29 @@
+#toast {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #295882;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px; 
+  padding: 1rem;
+  position: fixed;
+  z-index: 1; 
+  left: 50%; 
+  bottom: 1rem;
+}
+
+#toast.show {
+  visibility: visible; 
+  animation: fadein 0.5s, fadeout 0.5s 4.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@keyframes fadeout {
+  from {bottom: 1rem; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 1rem; opacity: 1;}
+}

@@ -1,0 +1,370 @@
+{
+  "tabPane": [
+    {
+      "title": "Autonomous",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 32.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "9,0": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Autonomous Strategy",
+              "_title": "/SmartDashboard/Autonomous Strategy"
+            }
+          },
+          "14,4": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoD",
+              "_title": "/SmartDashboard/AutoD"
+            }
+          },
+          "14,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoI",
+              "_title": "/SmartDashboard/AutoI"
+            }
+          },
+          "14,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoP",
+              "_title": "/SmartDashboard/AutoP"
+            }
+          },
+          "16,4": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoMaxA",
+              "_title": "/SmartDashboard/AutoMaxA"
+            }
+          },
+          "16,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoMaxV",
+              "_title": "/SmartDashboard/AutoMaxV"
+            }
+          },
+          "16,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoMaxVCurve",
+              "_title": "/SmartDashboard/AutoMaxVCurve"
+            }
+          },
+          "18,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoPathCurveGain",
+              "_title": "/SmartDashboard/AutoPathCurveGain"
+            }
+          },
+          "18,2": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoLookaheadCurveGain",
+              "_title": "/SmartDashboard/AutoLookaheadCurveGain"
+            }
+          },
+          "18,4": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoLookAhead",
+              "_title": "/SmartDashboard/AutoLookAhead"
+            }
+          },
+          "18,6": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoLookAheadFactor",
+              "_title": "/SmartDashboard/AutoLookAheadFactor"
+            }
+          },
+          "14,9": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/TestPathsRadiusM",
+              "_title": "/SmartDashboard/TestPathsRadiusM"
+            }
+          },
+          "9,3": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Autonomous Delay Sec",
+              "_title": "SmartDashboard/Autonomous Delay Sec"
+            }
+          },
+          "9,5": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Autonomous Trench Offset Inch",
+              "_title": "/SmartDashboard/Autonomous Trench Offset Inch"
+            }
+          },
+          "9,7": {
+            "size": [
+              6,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Autonomous Setting",
+              "_title": "SmartDashboard/Autonomous Setting"
+            }
+          },
+          "22,0": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Heading",
+              "_title": "/SmartDashboard/Heading"
+            }
+          },
+          "22,3": {
+            "size": [
+              7,
+              4
+            ],
+            "content": {
+              "_type": "Graph",
+              "_source0": "network_table:///SmartDashboard/Heading",
+              "_title": "SmartDashboard/Heading",
+              "Graph/Visible time": 30.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Game",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 32.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "7,0": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Autonomous Strategy",
+              "_title": "/SmartDashboard/Autonomous Strategy"
+            }
+          },
+          "7,6": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Autonomous Setting",
+              "_title": "SmartDashboard/Autonomous Setting"
+            }
+          },
+          "7,4": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Autonomous Delay Sec",
+              "_title": "SmartDashboard/Autonomous Delay Sec"
+            }
+          },
+          "7,2": {
+            "size": [
+              5,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Autonomous Trench Offset Inch",
+              "_title": "SmartDashboard/Autonomous Trench Offset Inch"
+            }
+          },
+          "25,0": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Winch RHardLimit",
+              "_title": "SmartDashboard/Winch RHardLimit",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "25,2": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Winch Position Inch",
+              "_title": "SmartDashboard/Winch Position Inch"
+            }
+          },
+          "25,4": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Heading",
+              "_title": "SmartDashboard/Heading"
+            }
+          },
+          "30,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///pivision/tv",
+              "_title": "pivision/tv"
+            }
+          },
+          "30,2": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///pivision/tx",
+              "_title": "pivision/tx"
+            }
+          },
+          "30,4": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///pivision/ty",
+              "_title": "pivision/ty"
+            }
+          },
+          "20,6": {
+            "size": [
+              7,
+              4
+            ],
+            "content": {
+              "_type": "Graph",
+              "_source0": "network_table:///SmartDashboard/Heading",
+              "_title": "SmartDashboard/Heading",
+              "Graph/Visible time": 30.0
+            }
+          },
+          "21,0": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Shooter Target RPM",
+              "_title": "SmartDashboard/Shooter Target RPM"
+            }
+          },
+          "21,2": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Shooter RPM",
+              "_title": "SmartDashboard/Shooter RPM"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "windowGeometry": {
+    "x": -6.0,
+    "y": 4.0,
+    "width": 1609.0,
+    "height": 656.0
+  }
+}

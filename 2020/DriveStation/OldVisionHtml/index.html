@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <head>
+        <meta charset="utf-8">
+        <title>CameraStream - Team Koalafied</title>
+    </head>
+    <body style="background-color: azure;"> 
+		<script src = "scripts.js"></script>
+		<div id="container" style = "height=100%;">
+		<canvas id  = "rotatedCanvas">Use a canvas-supported browser.</canvas>
+        <canvas id  = "regCanvas">Use a canvas-supported browser.</canvas>      
+            <script>
+				var front_canvas = document.getElementById("rotatedCanvas");
+				var ctx = front_canvas.getContext("2d");
+				ctx.fillStyle = "#05FF00";
+				// height of rect is 150
+				// width of rect is 300
+				ctx.fillRect(0, 73.5, 3, 300);
+				
+				var back_canvas = document.getElementById("regCanvas");
+				var ctx2 = back_canvas.getContext("2d");
+				ctx2.fillStyle = "#05FF00";
+				ctx2.fillRect(147.5, 0, 3, 150);
+			</script>
+		</div>
+    </body>
+</html>
