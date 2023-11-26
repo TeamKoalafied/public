@@ -1,0 +1,36 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Shuffleboard/Auto Test/Follower Type": "String Chooser",
+      "/Shuffleboard/Auto Test/Path Type": "String Chooser",
+      "/Shuffleboard/Auto/Auto 2023": "String Chooser",
+      "/Shuffleboard/Auto/Auto Type": "String Chooser",
+      "/Shuffleboard/Auto/Test Swerve Path": "String Chooser",
+      "/Shuffleboard/Characterise/Auto Type": "String Chooser",
+      "/Shuffleboard/DriveSummary/Field": "Field2d",
+      "/Shuffleboard/DriveSummary/Left Back Heading": "Gyro",
+      "/Shuffleboard/DriveSummary/Left Front Heading": "Gyro",
+      "/Shuffleboard/DriveSummary/Right Back Heading": "Gyro",
+      "/Shuffleboard/DriveSummary/Right Front Heading": "Gyro",
+      "/Shuffleboard/Drivebase/Field": "Field2d",
+      "/Shuffleboard/Drivebase/Left Back Heading": "Gyro",
+      "/Shuffleboard/Drivebase/Left Front Heading": "Gyro",
+      "/Shuffleboard/Drivebase/Right Back Heading": "Gyro",
+      "/Shuffleboard/Drivebase/Right Front Heading": "Gyro",
+      "/Shuffleboard/LF/Heading Sendable": "Gyro",
+      "/Shuffleboard/SummaryTest/Field": "Field2d",
+      "/Shuffleboard/SummaryTest/Left Back Heading": "Gyro",
+      "/Shuffleboard/SummaryTest/Left Front Heading": "Gyro",
+      "/Shuffleboard/SummaryTest/Right Back Heading": "Gyro",
+      "/Shuffleboard/SummaryTest/Right Front Heading": "Gyro",
+      "/Shuffleboard/Vision/Auto Type": "String Chooser",
+      "/Shuffleboard/Vision/Field": "Field2d",
+      "/Shuffleboard/VisionTest/Field": "Field2d",
+      "/SmartDashboard/Autonomous Strategy": "String Chooser",
+      "/SmartDashboard/Characterisation Test": "String Chooser",
+      "/SmartDashboard/april Sim Field": "Field2d",
+      "/SmartDashboard/frontcam Sim Field": "Field2d"
+    }
+  }
+}
