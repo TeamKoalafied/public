@@ -1,0 +1,35 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      " Talon FX (v6)[2]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Shuffleboard/Auto Test/Follower Type": "String Chooser",
+      "/Shuffleboard/Auto Test/Path Type": "String Chooser",
+      "/Shuffleboard/Auto/Auto 2023": "String Chooser",
+      "/Shuffleboard/Auto/Auto 2024": "String Chooser",
+      "/Shuffleboard/Auto/Auto Type": "String Chooser",
+      "/Shuffleboard/Characterise/Auto Type": "String Chooser",
+      "/Shuffleboard/Drive/Auto 2024": "String Chooser",
+      "/Shuffleboard/Drive/Field2": "Field2d",
+      "/Shuffleboard/DriveSummary/Field": "Field2d",
+      "/Shuffleboard/DriveSummary/Left Back Heading": "Gyro",
+      "/Shuffleboard/DriveSummary/Left Front Heading": "Gyro",
+      "/Shuffleboard/DriveSummary/Right Back Heading": "Gyro",
+      "/Shuffleboard/DriveSummary/Right Front Heading": "Gyro",
+      "/Shuffleboard/Vision Test/Path Type": "String Chooser",
+      "/Shuffleboard/Vision/Field": "Field2d",
+      "/SmartDashboard/april Sim Field": "Field2d"
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}
